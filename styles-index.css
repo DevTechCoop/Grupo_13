@@ -1,0 +1,179 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #594C84;
+    background-image: url(Images/5-ultima.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box img {
+    max-height: 50px;
+    max-width: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #B1829E; 
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 37px;
+}
+
+nav a {
+    color: #FAEEC8;
+    margin-right: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s color;
+}
+
+nav a:hover {
+    color: #F6CDA3;
+    text-decoration: underline overline;
+}
+
+.back {
+    position: inline;
+    height: 2%;
+    width: 2%;
+    background: #FF8DA1;
+    animation-name: backdiv;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.heart {
+    position: inline;
+    background-color: #FF8DA1;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+  
+.heart:after {
+    background-color: #FF8DA1;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+}
+
+.heart:before {
+    background-color: #FF8DA1;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+}
+
+@keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+}
+
+.glassbox {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.principal-text {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.principal-text p {
+    position: relative;
+    margin: 20px auto;
+    padding: 5px auto;
+    max-width: 640px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-title {
+    display: inline;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 27px;
+}
+
+.differentiating {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content-differentiating {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.list-differentiating {
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    list-style-type: hiragana;
+}
+
+.item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #594C84;
+    text-align: center;
+}
+
+footer img {
+    max-height: 28px;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
