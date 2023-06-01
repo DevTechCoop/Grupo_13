@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #50A161;
+    background-image: url(Images/1-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box img {
+    max-height: 50px;
+    max-width: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #E1A201;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 37px;
+}
+
+nav a {
+    color: #194088;
+    margin-right: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.5s color;
+}
+
+nav a:hover {
+    color: #785F2D;
+    text-decoration: underline overline;
+}
+
+section {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.glassbox {
+    margin: 35px 150px;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.map h3 {
+    color: #EBEBEB;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #605E5E;
+    text-align: center;
+}
+
+footer img {
+    max-height: 28px;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
