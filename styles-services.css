@@ -43,11 +43,11 @@ nav a {
     margin-right: 30px;
     font-size: 17px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.5s color;
 }
 
 nav a:hover {
-    color: #40804D;
+    color: #98D296;
     text-decoration: underline overline;
 }
 
@@ -87,8 +87,8 @@ nav a:hover {
 }
 
 .products li:hover {
-    border-color: #BAE9F1;
-    transition: 0.7s;
+    border-color: #5A87A1;
+    transition: 0.5s;
 }
 
 .products-product {
